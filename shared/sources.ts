@@ -39,14 +39,13 @@ export const originSources = {
     interval: Time.Realtime,
     home: "https://weibo.com",
   },
-    "cser_cn": {
-    name: "程序员的絮絮念",
-    title: "实时热搜(title)",
-    type: "realtime",
+    "52hrtt": {
+    name: "52hrtt",
+    title: "52(title)",
+    type: "hottest",
     column: "china",
     color: "red",
-    interval: Time.Realtime,
-    home: "https://broadcastchannel-36h.pages.dev/rss.xml",
+    home: "https://rsshub.app/52hrtt/global",
   },
   "zaobao": {
     name: "联合早报",
