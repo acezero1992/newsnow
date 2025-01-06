@@ -42,7 +42,7 @@ export const originSources = {
     "cser_cn": {
     name: "程序员的絮絮念",
     title: "实时热搜(title)",
-    type: "hottest",
+    type: "realtime",
     column: "china",
     color: "red",
     interval: Time.Realtime,
