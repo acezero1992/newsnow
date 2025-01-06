@@ -39,6 +39,15 @@ export const originSources = {
     interval: Time.Realtime,
     home: "https://weibo.com",
   },
+    "cser_cn": {
+    name: "程序员的絮絮念",
+    title: "实时热搜(title)",
+    type: "hottest",
+    column: "china",
+    color: "red",
+    interval: Time.Realtime,
+    home: "https://broadcastchannel-36h.pages.dev/rss.xml",
+  },
   "zaobao": {
     name: "联合早报",
     interval: Time.Common,
