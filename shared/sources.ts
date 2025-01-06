@@ -39,14 +39,15 @@ export const originSources = {
     interval: Time.Realtime,
     home: "https://weibo.com",
   },
-    "52hrtt": {
-    name: "52hrtt",
-    title: "52(title)",
-    type: "hottest",
-    column: "china",
-    color: "red",
-    home: "https://rsshub.app/52hrtt/global",
-  },
+"rsshub_52hrtt": {
+  name: "52hrtt",
+  title: "全球华人新闻",
+  type: "realtime",
+  column: "world",
+  color: "purple",
+  interval: Time.Realtime,
+  home: "https://rsshub.app/52hrtt/global",
+},
   "zaobao": {
     name: "联合早报",
     interval: Time.Common,
@@ -63,6 +64,16 @@ export const originSources = {
     title: "今日最热",
     home: "https://coolapk.com",
   },
+  "cser_cn": {
+  name: "程序员的絮絮念",
+  title: "实时热搜",
+  type: "realtime",
+  column: "tech",
+  color: "orange",
+  interval: Time.Realtime,
+  home: "https://broadcastchannel-36h.pages.dev/rss.xml",
+},
+
   "wallstreetcn": {
     name: "华尔街见闻",
     color: "blue",
